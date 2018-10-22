@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.jimador.notes.app"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "microservice",
+    "baseName": "notesapp",
+    "packageName": "org.jimador.notes.app",
+    "packageFolder": "org/jimador/notes/app",
+    "serverPort": "9999",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YTViZmZjYzYxZjkxYTQ4NzQ4ZTNmNzNlMTlhZGM1ZGQzZjNiMGRjYzA2ZGMzODYwMzlkNjA2MTQzZDBkYTg2OTVjYzZlYWVlMDNhNjg2NjZmMDM3ZGQzNzhhMDE5MGQyNjMyYTc1YmNlZTJmM2M4ZTVjMTAyMDUxYzA2YzUyOGI=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
